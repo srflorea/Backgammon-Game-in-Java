@@ -1,0 +1,21 @@
+
+Proiectul implementeaza un program capabil sa joace corect si sa castige jocul 
+Backgammon. 
+Am contruit o clasa, TablaJoc care retine informatiile
+despre tabla de joc la un moment dat. 
+In aceasta tabla sunt implementate 
+metode pentru determinarea posibilitatilor de a muta(vezi comentariile din 
+cod). 
+Pentru a afla mutarea optima la un anumit pas am folosit algoritmul
+ "expectiminimax", implementat in clasa ExpectiMiniMax.
+Metoda ce implementeaza 
+acest algoritm returneaza un obiect de tipul Pair ce va contine tabla si 
+scorul acesteia. 
+Clasa Evaluare contine metode ce vor obtine scorul unei 
+anumite table. Acest scor este necesar in obtinerea mutarii 
+optime la un
+ anumit pas. 
+Fiind un joc ce este guvernat de sansa, programul meu pierde uneori chiar
+ si cu botul 
+de nivel 1. Insa, de cele mai multe ori reusesc sa castig cu
+ absolut toti botii.
